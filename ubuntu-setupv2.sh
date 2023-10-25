@@ -31,7 +31,7 @@
 
 # TODO: scan directory to get all the scripts
 BASE_SCRIPT_DIR="./install-scripts"
-installScripts=("${BASE_SCRIPT_DIR}/install-open-ssh.sh" "${BASE_SCRIPT_DIR}/install-open-vpn.sh" "${BASE_SCRIPT_DIR}/install-c++-tools.sh" "${BASE_SCRIPT_DIR}/install-vscode.sh" "${BASE_SCRIPT_DIR}/install-docker.sh" "${BASE_SCRIPT_DIR}/install-kubernetes.sh" "${BASE_SCRIPT_DIR}/install-minikube.sh" "${BASE_SCRIPT_DIR}/install-gitlab.sh")
+installScripts=("${BASE_SCRIPT_DIR}/install-open-ssh.sh" "${BASE_SCRIPT_DIR}/install-open-vpn.sh" "${BASE_SCRIPT_DIR}/install-mysql.sh" "${BASE_SCRIPT_DIR}/install-postgres.sh" "${BASE_SCRIPT_DIR}/install-mongodb.sh" "${BASE_SCRIPT_DIR}/install-c++-tools.sh" "${BASE_SCRIPT_DIR}/install-vscode.sh" "${BASE_SCRIPT_DIR}/install-docker.sh" "${BASE_SCRIPT_DIR}/install-kubernetes.sh" "${BASE_SCRIPT_DIR}/install-minikube.sh" "${BASE_SCRIPT_DIR}/install-gitlab.sh")
 checklistOptions=""
 
 # create the options for the checklist
